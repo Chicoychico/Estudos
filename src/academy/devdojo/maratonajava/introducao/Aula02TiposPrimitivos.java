@@ -9,7 +9,7 @@ public class Aula02TiposPrimitivos {
         int idade = 10;
         long numeroGrande = 10000;
         double salarioDouble = 2000;
-        double salarioFloat = 2500;
+        float salarioFloat = (float) 2500.0D;
         byte idadeByte = 10;
         short idadeShort = 10;
         boolean verdadeiro = true;
@@ -19,7 +19,6 @@ public class Aula02TiposPrimitivos {
         //Strings nao sao do tipo primitivo, por isso devem ser declaradas com letra maiuscula
 
         String nome = "Isso é uma string";
-
 
     System.out.println(idade);
     System.out.println("A minha idade é "+idade+" anos, chama papai!");

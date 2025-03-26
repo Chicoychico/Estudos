@@ -21,8 +21,10 @@ public class Aula04Operadores {
         System.out.println(resto);
 
         // Operadores aritméticos
-        // < menor > maior
-        // <= menor igual >= maior igual
+        // < menor
+        // > maior
+        // <= menor igual
+        // >= maior igual
         // == igual
         // != diferente
 
@@ -40,7 +42,6 @@ public class Aula04Operadores {
         // || -> or
         // ! -> not
 
-        // && -> and
         int idade = 24;
         float salario = 3500f;
         boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
